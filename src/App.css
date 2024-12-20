@@ -1,0 +1,66 @@
+
+
+h1{
+    color: #FF0080;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.mainBlock{
+    background-color: #FF5580;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 30px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 35px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px black;
+
+    input{
+        margin-top: 50px;
+        padding: 30px;
+        width: 80%;
+        height: 50px;
+        border-radius: 15px;
+        outline: none;
+        border: #FFAA80;
+        background-color: #FFFF80;
+        font-size: 24px;
+        color: #FF0080;
+        font-weight: 700;
+    }   
+    input::placeholder{
+        color: #FF0080;
+        font-weight: 700;
+    }
+
+    .cards{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .loadMore{
+        cursor: pointer;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid #FFFF80;
+        background-color: #FFFF80;
+        font-size: 32px;
+        color: #FF0080;
+        font-weight: 700;
+        transition: .3s all;
+    }
+    .loadMore:hover{
+        background-color: #FF5580;
+        color: #FFFF80;
+    }
+}
